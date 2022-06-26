@@ -61,7 +61,6 @@
   }
 
   nav ul li a:hover {
-    /* transform: scale(1.3); */
     font-size: 32px;
   }
 
@@ -71,6 +70,48 @@
     overflow: hidden;
   }
 
+  .heading {
+    position: relative;
+    font-weight: 500;
+    font-size: 22px;
+  }
+
+  .heading::before {
+    content: "WATER_SOLUTION";
+    width: 100%;
+    color: rgb(48, 9, 243);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 0.2rem solid rgb(48, 9, 243);
+    animation: slide 2s linear infinite;
+    -webkit-animation: slide 2s linear infinite;
+    overflow: hidden;
+  }
+
+  @-webkit-keyframes slide {
+    0% {
+      width: 0%;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 0%;
+    }
+  }
+
+  @keyframes slide {
+    0% {
+      width: 0%;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 0%;
+    }
+  }
   .back {
     width: 100%;
     height: 300px;
