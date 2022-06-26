@@ -168,11 +168,129 @@
     width: 250px;
   }
 
+  #mainpart {
+    background: #d9e4ec;
+    padding: 1.5rem;
+  }
+
+  #sectors {
+    text-align: center;
+    padding: 1rem 10rem;
+  }
+
+  .iframs {
+    margin-left: 3rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+  }
+
+  .trestimonials {
+    display: flex;
+    gap: 2rem;
+    margin: 0 3rem;
+  }
+
+  .contents {
+    margin: 1rem 2rem;
+    padding: 4rem;
+  }
+
+  .icon {
+    font-size: 4rem;
+    margin: 1rem 0;
+  }
+
+  .contents h1 {
+    margin: 1rem 0;
+  }
+
+  .value {
+    margin: 1rem 0;
+  }
+
+  .sectorHeading {
+    margin: 2rem;
+    height: 100%;
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    animation: split 1s linear infinite;
+    -webkit-animation: split 1s linear infinite;
+    transition: 2s;
+  }
+
+  @-webkit-keyframes spli {
+    0% {
+      height: 0%;
+    }
+    50% {
+      height: 100%;
+    }
+    100% {
+      height: 0%;
+    }
+  }
+
+  @keyframes spli {
+    0% {
+      height: 0%;
+    }
+    50% {
+      height: 100%;
+    }
+    100% {
+      height: 0%;
+    }
+  }
+  .sector {
+    background-color: #000;
+    margin: 1rem 5rem;
+    height: 15rem;
+    border-radius: 1rem;
+    color: #fff;
+  }
+
+  .sector:hover {
+    -webkit-animation: spin 1s linear;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    transition: 2s;
+  }
+
+  @-webkit-keyframes spin {
+    100% {
+      -webkit-transform: rotateY(360deg);
+    }
+  }
+  .sector img {
+    width: 4.5rem;
+    margin: 2rem;
+  }
+
+  .contact {
+    margin: 1.5% 3%;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background: #d9e4ec;
+  }
+
+  .contact h3 {
+    margin: 1rem 0;
+  }
+
+  .contact button {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    background-color: #000;
+    color: #fff;
+  }
+
   footer {
     background-color: rgb(7, 7, 31);
     color: #fff;
     padding-bottom: 10px;
-    /* text-align: center; */
   }
 
   .footimg {
@@ -182,7 +300,7 @@
 
   footer img {
     width: 250px;
-    height: 150px;
+    height: 100px;
   }
 
   address {

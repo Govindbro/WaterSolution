@@ -12,3 +12,9 @@ menuButton.onclick= function (){
         menu.src="images/menu.png";
     }
 }
+// adding the onclick feature in button 
+var button=document.getElementById("btn");
+button.onclick=()=>{
+    button.style.background="white";
+    button.style.color="black";
+}
