@@ -214,8 +214,8 @@
     font-size: 2.2rem;
     font-weight: 900;
     margin-bottom: 2rem;
-    animation: split 1s linear infinite;
-    -webkit-animation: split 1s linear infinite;
+    animation: split 2s linear infinite;
+    -webkit-animation: split 2s linear infinite;
     transition: 2s;
   }
 
