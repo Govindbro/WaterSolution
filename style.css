@@ -82,7 +82,7 @@ nav ul li a:hover {
 .heading::before {
   content: "WATER_SOLUTION";
   width: 100%;
-  color: rgb(48, 9, 243);
+  color: skyblue;
   position: absolute;
   top: 0;
   left: 0;
