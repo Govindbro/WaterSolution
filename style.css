@@ -100,7 +100,6 @@
       width: 0%;
     }
   }
-
   @keyframes slide {
     0% {
       width: 0%;
@@ -180,21 +179,27 @@
   }
 
   .iframs {
-    /* margin-left: 3rem; */
+    text-align: center;
+    align-items: center;
     margin-top: 5rem;
     border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+    height: auto;
   }
 
   .trestimonials {
     display: flex;
-    /* gap: 2rem; */
-    margin: 0 3rem;
+    margin-left: 1.8rm;
+    text-align: center;
+    justify-content: center;
+    margin: 0 1rem;
     overflow: hidden;
   }
 
   .contents {
-    margin: 1rem 2rem;
-    padding: 4rem;
+    margin: 1rem 1rem;
+    padding: 2rem;
   }
 
   .icon {
@@ -211,9 +216,9 @@
   }
 
   .sectorHeading {
-    margin: 2rem;
+    margin: 1rem;
     height: 100%;
-    font-size: 2.2rem;
+    /* font-size: 2rem; */
     font-weight: 900;
     margin-bottom: 2rem;
     animation: split 2s linear infinite;
@@ -232,7 +237,6 @@
       height: 0%;
     }
   }
-
   @keyframes spli {
     0% {
       height: 0%;
@@ -246,8 +250,9 @@
   }
   .sector {
     background-color: #000;
-    margin: 1rem 5rem;
-    height: 15rem;
+    margin: 1rem 1rem;
+    width: 100%;
+    height: 13rem;
     border-radius: 1rem;
     color: #fff;
   }
@@ -255,7 +260,7 @@
   .sector:hover {
     -webkit-animation: spin 1s linear;
     -webkit-animation-duration: 3s;
-            animation-duration: 3s;
+    animation-duration: 3s;
     transition: 2s;
   }
 
@@ -265,7 +270,7 @@
     }
   }
   .sector img {
-    width: 4.5rem;
+    width: 4rem;
     margin: 2rem;
   }
 
@@ -342,4 +347,5 @@
   .end {
     margin: 4% 1%;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
