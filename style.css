@@ -1,26 +1,34 @@
 /* Extra small devices (phones, 600px and down) */
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Kaushan+Script&family=Poppins:wght@200&family=Roboto&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
 }
 
-.banner {
+@font-face {
+  font-family: Co-head;
+  src: url(Font/Co-Headline-Light.ttf);
+}
+@font-face {
+  font-family: Co-text;
+  src: url(Font/Co-Text-Light.ttf);
+}
+body {
+  font-family: Co-text;
+  /*# sourceMappingURL=style.css.map */
+}
+body .banner {
   padding: 10px 15px;
 }
-
-.banner img {
+body .banner img {
   width: 8rem;
 }
-
-.logo {
+body .logo {
   width: 145px;
   height: auto;
 }
-
-#button {
+body #button {
   width: 40px;
   height: 50px;
   background: #000;
@@ -33,53 +41,47 @@
   z-index: 3;
   cursor: pointer;
 }
-
-#button img {
+body #button img {
   width: 20px;
   margin-top: 15px;
 }
-
-#container {
+body #container {
   padding: 50px 50px;
   width: 250px;
   height: 100%;
   position: fixed;
   right: 0;
-  font-size: 20px;
+  font-size: 18px;
   left: -250px;
   top: 0;
+  font-family: Co-head;
   background-color: #000;
   z-index: 2;
   transition: 0.5s;
 }
-
-nav ul li {
+body nav ul li {
   list-style: none;
   margin: 20px 20px;
 }
-
-nav ul li a {
+body nav ul li a {
   text-decoration: none;
   color: #fff;
 }
-
-nav ul li a:hover {
-  font-size: 32px;
+body nav ul li a:hover {
+  font-size: 20px;
 }
-
-#main {
+body #main {
   position: relative;
   background-color: aliceblue;
   overflow: hidden;
 }
-
-.heading {
+body .heading {
   position: relative;
   font-weight: 500;
   font-size: 22px;
+  font-family: Co-head;
 }
-
-.heading::before {
+body .heading::before {
   content: "WATER_SOLUTION";
   width: 100%;
   color: skyblue;
@@ -91,7 +93,6 @@ nav ul li a:hover {
   -webkit-animation: slide 2s linear infinite;
   overflow: hidden;
 }
-
 @-webkit-keyframes slide {
   0% {
     width: 0%;
@@ -114,74 +115,119 @@ nav ul li a:hover {
     width: 0%;
   }
 }
-.back {
+body .back {
   width: 100%;
   height: 300px;
   position: relative;
 }
-
-.front1 {
+body .front1 {
   width: 130px;
   position: absolute;
   top: 22%;
   left: 5%;
 }
-
-.front2 {
+body .front2 {
   width: 230px;
   position: absolute;
   top: 30%;
   right: -4%;
 }
-
-#main p {
+body #main p {
   position: absolute;
   top: 8%;
   right: 12%;
   font-size: 20px;
 }
-
-#about {
+body .Enquire {
+  padding: 1rem 2.5rem;
+}
+body .form-area {
+  border-radius: 1.5rem;
+  padding: 2rem 2.5rem;
+  box-shadow: 5px 5px 4px 1px #888888;
+}
+body .form-area h1 {
+  font-family: Co-head;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+body input {
+  margin-bottom: 10px;
+  padding: 0.7rem 1rem;
+  width: 100%;
+  font-size: 14px;
+  font-family: Co-text;
+}
+body textarea {
+  margin-bottom: 10px;
+  padding: 0.7rem 1rem;
+  width: 100%;
+  font-size: 14px;
+  font-family: Co-text;
+  resize: vertical;
+}
+body select {
+  margin-bottom: 10px;
+  padding: 0.7rem 1rem;
+  width: 100%;
+  font-size: 14px;
+  font-family: Co-text;
+}
+body .button1 button {
+  font-size: 1.1rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  background-color: #000;
+  color: #fff;
+}
+body .button1 button:hover {
+  background: #fff;
+  color: #000;
+}
+body .alert {
+  float: right;
+  color: red;
+}
+body #about {
   text-align: center;
   padding: 5%;
 }
-
-#about h3 {
+body #about h1 {
+  font-family: Co-head;
+}
+body #about h3 {
   margin: 10px;
 }
-
-#items {
+body #items {
   margin: 5%;
   text-align: center;
 }
-
-.item {
+body .item {
   margin: 1.5% 3%;
   padding: 20px 20px;
   border-radius: 10px;
   background: #d9e4ec;
 }
-
-.item h1 {
+body .item h1 {
   margin-bottom: 10px;
+  font-family: Co-head;
 }
-
-.item img {
+body .item img {
   width: 250px;
 }
-
-#mainpart {
+body #mainpart {
   background: #d9e4ec;
   padding: 1.5rem;
   overflow: hidden;
 }
-
-#sectors {
+body #mainpart h1 {
+  font-family: Co-head;
+}
+body #sectors {
   text-align: center;
   padding: 1rem 10rem;
 }
-
-.iframs {
+body .iframs {
   text-align: center;
   align-items: center;
   margin-top: 5rem;
@@ -190,8 +236,7 @@ nav ul li a:hover {
   height: 100%;
   height: auto;
 }
-
-.trestimonials {
+body .trestimonials {
   display: flex;
   margin-left: 1.8rm;
   text-align: center;
@@ -199,38 +244,32 @@ nav ul li a:hover {
   margin: 0 1rem;
   overflow: hidden;
 }
-
-.contents {
+body .contents {
   margin: 1rem 1rem;
   padding: 2rem;
 }
-
-.icon {
+body .icon {
   font-size: 4rem;
   margin: 1rem 0;
 }
-
-.contents h1 {
+body .contents h1 {
   margin: 1rem 0;
 }
-
-.value {
+body .value {
   margin: 1rem 0;
 }
-
-#sectors {
+body #sectors {
   text-align: center;
   overflow: hidden;
   padding: 1rem 1rem;
   padding-right: 1.5 rem;
 }
-
-.sectorHeading {
+body .sectorHeading {
+  font-family: Co-head;
   animation: split 2s linear infinite;
   -webkit-animation: split 2s linear infinite;
   transition: 2s;
 }
-
 @-webkit-keyframes spli {
   0% {
     height: 0%;
@@ -253,47 +292,44 @@ nav ul li a:hover {
     height: 0%;
   }
 }
-.sector {
+body .sector {
   background-color: #000;
   margin: 1rem;
   padding-bottom: 1rem;
   border-radius: 1rem;
   color: #fff;
 }
-
-.sector:hover {
+body .sector:hover {
   -webkit-animation: spin 1s linear;
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
   transition: 2s;
 }
-
 @-webkit-keyframes spin {
   100% {
     -webkit-transform: rotateY(360deg);
   }
 }
-.sector img {
+body .sector img {
   width: 20%;
   margin: 1rem;
 }
-
-.sector h2 {
+body .sector h2 {
   margin-bottom: 1rem;
 }
-
-.contact {
+body .contact {
   margin: 1.5% 3%;
   padding: 20px 20px;
   border-radius: 10px;
   background: #d9e4ec;
 }
-
-.contact h3 {
+body .contact h1 {
+  font-family: Co-head;
+}
+body .contact h3 {
   margin: 1rem 0;
 }
-
-.contact button {
+body .contact button {
   margin: 1rem 0;
   font-size: 1.1rem;
   padding: 0.7rem;
@@ -301,69 +337,61 @@ nav ul li a:hover {
   background-color: #000;
   color: #fff;
 }
-
-.contact button:hover {
+body .contact button:hover {
   background: #fff;
   color: #000;
 }
-
-footer {
+body footer {
   background-color: rgb(7, 7, 31);
   color: #fff;
   padding-bottom: 10px;
 }
-
-.footimg {
+body .footimg {
   padding-top: 10px;
   text-align: center;
+  margin: 3px 5rem;
+  font-size: 1.7rem;
+  background-color: rgb(53, 10, 10);
+  display: block;
 }
-
-footer img {
-  width: 250px;
-  height: 100px;
-  color: #fff;
+body .footimg h1 {
+  font-family: Co-heading;
+  font-style: bold;
 }
-
-address {
+body .footimg h5 {
+  font-family: Co-text;
+}
+body address {
   margin: 4% 15%;
 }
-
-.icons {
+body .icons {
   display: flex;
   flex-direction: row;
   font-size: 30px;
   margin: 2% 15%;
   gap: 5%;
 }
-
-.add {
+body .add {
   color: #fff;
 }
-
-a {
+body a {
   text-decoration: none;
 }
-
-#foot2 {
+body #foot2 {
   background-color: rgb(1, 1, 17);
   padding: 8%;
   text-align: center;
   color: #fff;
   border: #d9e4ec;
 }
-
-.link {
+body .link {
   margin: 10px;
 }
-
-.link a {
+body .link a {
   color: #fff;
   text-decoration: underline;
   font-weight: 900;
 }
-
-.end {
+body .end {
   margin: 4% 1%;
-}
-
-/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
