@@ -1,6 +1,6 @@
 /* Extra small devices (phones, 600px and down) */
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200&family=Roboto&display=swap");
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 360px) {
   * {
     box-sizing: border-box;
     margin: 0;
@@ -215,12 +215,13 @@
     margin: 1rem 0;
   }
 
+  #sectors {
+    text-align: center;
+    overflow: hidden;
+    padding: 1rem 1rem;
+  }
+
   .sectorHeading {
-    margin: 1rem;
-    height: 100%;
-    /* font-size: 2rem; */
-    font-weight: 900;
-    margin-bottom: 2rem;
     animation: split 2s linear infinite;
     -webkit-animation: split 2s linear infinite;
     transition: 2s;
@@ -250,9 +251,9 @@
   }
   .sector {
     background-color: #000;
-    margin: 1rem 1rem;
-    width: 100%;
+    margin: 1rem;
     height: 13rem;
+    width: 20rem;
     border-radius: 1rem;
     color: #fff;
   }
@@ -270,8 +271,8 @@
     }
   }
   .sector img {
-    width: 4rem;
-    margin: 2rem;
+    width: 20%;
+    margin: 1rem;
   }
 
   .contact {
@@ -308,6 +309,7 @@
   footer img {
     width: 250px;
     height: 100px;
+    color: #fff;
   }
 
   address {
@@ -320,6 +322,10 @@
     font-size: 30px;
     margin: 2% 15%;
     gap: 5%;
+  }
+
+  .fab {
+    color: #fff;
   }
 
   a {

@@ -1,6 +1,6 @@
 /* Extra small devices (phones, 600px and down) */
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200&family=Roboto&display=swap");
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 360px) {
   * {
     box-sizing: border-box;
     margin: 0;
@@ -217,13 +217,13 @@
   .value {
     margin: 1rem 0;
   }
-
+  #sectors{
+    text-align: center;
+    overflow: hidden;
+    padding: 1rem 1rem;
+  }
   .sectorHeading {
-    margin: 1rem;
-    height: 100%;
-    /* font-size: 2rem; */
-    font-weight: 900;
-    margin-bottom: 2rem;
+    
     animation: split 2s linear infinite;
     -webkit-animation: split 2s linear infinite;
     transition: 2s;
@@ -254,9 +254,10 @@
   }
   .sector {
     background-color: #000;
-    margin: 1rem 1rem;
-    width: 100%;
+    margin: 1rem ;
+    
     height: 13rem;
+    width: 20rem;
     border-radius: 1rem;
     color: #fff;
   }
@@ -264,7 +265,7 @@
   .sector:hover {
     -webkit-animation: spin 1s linear;
     -webkit-animation-duration: 3s;
-            animation-duration: 3s;
+    animation-duration: 3s;
     transition: 2s;
   }
 
@@ -273,10 +274,14 @@
       -webkit-transform: rotateY(360deg);
     }
   }
-  .sector img {
-    width: 4rem;
-    margin: 2rem;
+  .sector img{
+ 
+    width: 20%;
+    margin: 1rem;
   }
+  // .sector h2{
+  //   width: 100%;
+  // }
 
   .contact {
     margin: 1.5% 3%;
@@ -312,6 +317,7 @@
   footer img {
     width: 250px;
     height: 100px;
+    color: #fff;
   }
 
   address {
@@ -325,7 +331,9 @@
     margin: 2% 15%;
     gap: 5%;
   }
-
+  .fab {
+    color: #fff;
+  }
   a {
     text-decoration: none;
   }
