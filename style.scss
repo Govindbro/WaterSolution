@@ -1,6 +1,6 @@
 /* Extra small devices (phones, 600px and down) */
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200&family=Roboto&display=swap");
-@media only screen and (max-width: 360px) {
+
   * {
     box-sizing: border-box;
     margin: 0;
@@ -260,8 +260,7 @@
   .sector {
     background-color: #000;
     margin: 1rem ;
-    height: 13rem;
-    width: 20rem;
+    padding-bottom: 1rem;
     border-radius: 1rem;
     color: #fff;
     
@@ -283,7 +282,10 @@
  
     width: 20%;
     margin: 1rem;
-    margin-bottom: 3rem;
+    // margin-bottom: 2rem;
+  }
+  .sector h2{
+    margin-bottom: 1rem;
   }
 
   .contact {
@@ -365,5 +367,4 @@
 
   .end {
     margin: 4% 1%;
-  }
-}/*# sourceMappingURL=style.css.map */
+  }/*# sourceMappingURL=style.css.map */
