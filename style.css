@@ -354,12 +354,14 @@ body .footimg {
   background-color: rgb(53, 10, 10);
   display: block;
 }
-body .footimg h1 {
+body .footimg .logo {
   font-family: Co-heading;
   font-style: bold;
+  font-size: 30px;
 }
-body .footimg h5 {
+body .footimg .logoo {
   font-family: Co-text;
+  font-size: 10px;
 }
 body address {
   margin: 4% 15%;
