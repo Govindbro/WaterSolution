@@ -221,6 +221,7 @@
     text-align: center;
     overflow: hidden;
     padding: 1rem 1rem;
+    padding-right: 1.5 rem;
   }
   .sectorHeading {
     
@@ -255,11 +256,11 @@
   .sector {
     background-color: #000;
     margin: 1rem ;
-    
     height: 13rem;
     width: 20rem;
     border-radius: 1rem;
     color: #fff;
+    
   }
 
   .sector:hover {
@@ -280,9 +281,6 @@
     margin: 1rem;
     margin-bottom: 3rem;
   }
-  // .sector h2{
-  //   width: 100%;
-  // }
 
   .contact {
     margin: 1.5% 3%;
@@ -303,7 +301,11 @@
     background-color: #000;
     color: #fff;
   }
+  .contact button:hover{
+    background: #fff;
+    color: #000;
 
+  }
   footer {
     background-color: rgb(7, 7, 31);
     color: #fff;
@@ -332,7 +334,7 @@
     margin: 2% 15%;
     gap: 5%;
   }
-  .fab {
+  .add {
     color: #fff;
   }
   a {
