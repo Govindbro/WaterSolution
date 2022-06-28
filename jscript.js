@@ -1,7 +1,7 @@
 var menuButton=document.getElementById("button");
 var sideNav=document.getElementById("container");
 var menu=document.getElementById("menu");
-sideNav.style.left="-450px";
+sideNav.style.left="-250px";
 menuButton.onclick= function (){
     if(sideNav.style.left=="-250px"){
         sideNav.style.left="0";
