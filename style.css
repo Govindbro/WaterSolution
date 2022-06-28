@@ -11,6 +11,10 @@
   src: url(Font/Co-Headline-Light.ttf);
 }
 @font-face {
+  font-family: Co-logo;
+  src: url(Font/Co-Headline-Bold.ttf);
+}
+@font-face {
   font-family: Co-text;
   src: url(Font/Co-Text-Light.ttf);
 }
@@ -361,7 +365,7 @@ body .m {
   text-align: center;
 }
 body .footimg .logo {
-  font-family: Co-heading;
+  font-family: Co-logo;
   font-style: bold;
   font-size: 30px;
   text-align: center;
