@@ -212,7 +212,7 @@ body .item {
   margin: 1.5% 3%;
   padding: 20px 20px;
   border-radius: 10px;
-  background: #d9e4ec;
+  box-shadow: 5px 5px 4px 1px #888888;
 }
 body .item h1 {
   margin-bottom: 10px;
@@ -324,10 +324,11 @@ body .sector h2 {
   margin-bottom: 1rem;
 }
 body .contact {
-  margin: 1.5% 3%;
+  margin: 2% 3%;
   padding: 20px 20px;
   border-radius: 10px;
-  background: #d9e4ec;
+  margin-bottom: 2rem;
+  box-shadow: 5px 5px 4px 1px #888888;
 }
 body .contact h1 {
   font-family: Co-head;

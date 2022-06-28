@@ -236,7 +236,7 @@
       margin: 1.5% 3%;
       padding: 20px 20px;
       border-radius: 10px;
-      background: #d9e4ec;
+      box-shadow: 5px 5px 4px 1px #888888;
     }
   
     .item h1 {
@@ -369,10 +369,13 @@
     }
   
     .contact {
-      margin: 1.5% 3%;
+      margin: 2% 3%;
       padding: 20px 20px;
       border-radius: 10px;
-      background: #d9e4ec;
+      margin-bottom: 2rem;
+      // background: #d9e4ec;
+      box-shadow: 5px 5px 4px 1px #888888;
+
     }
     .contact h1{
       font-family: Co-head;
