@@ -357,11 +357,15 @@ body .footimg {
   display: flex;
   flex-direction: column;
 }
+body .m {
+  text-align: center;
+}
 body .footimg .logo {
   font-family: Co-heading;
   font-style: bold;
   font-size: 30px;
   text-align: center;
+  margin-left: 1rem;
 }
 body .footimg .logoo {
   font-family: Co-text;

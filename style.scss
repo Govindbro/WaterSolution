@@ -406,11 +406,15 @@
       display: flex;
       flex-direction: column;
     }
+    .m{
+      text-align: center;
+    }
     .footimg .logo{
       font-family: Co-heading;
       font-style: bold;
       font-size: 30px;
       text-align: center;
+      margin-left: 1rem;
     }
     .footimg .logoo{
       font-family: Co-text;
